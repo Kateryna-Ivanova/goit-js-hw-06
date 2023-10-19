@@ -11,9 +11,9 @@ function onFormSubmit(event) {
     // console.dir(Email);
     const Password = event.currentTarget.elements.password.value
     // console.dir(Password);
-    if (Password === "" || Email === "") {alert(textAlert) }
-    else {const dataForm = { Email,Password }
-        console.dir(dataForm)
+    if (Password === "" || Email === "") { return alert(textAlert) }
+    else { const dataForm = { Email,Password }
+     console.dir(dataForm);
 }
     form.reset();
 }
